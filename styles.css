@@ -1,6 +1,7 @@
 :root {
     --bg-color-1: #1F2937;
     --bg-color-2: #E5E7EB;
+    --bg-color-3: #3882F6;
     --text-color-1: #F9FAF8;
     --text-color-2: #E5E7EB;
     --text-color-3: #1F2937;
@@ -47,4 +48,48 @@ header {
     color: var(--text-color-2);
     text-decoration: none;
     font-size: 18px;
+}
+
+.hero {
+    background-color: var(--bg-color-1);
+    display: flex;
+    flex: 1;
+    gap: 16px;
+    justify-content: center;
+    padding: 64px 200px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.title {
+    color: var(--text-color-1);
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+.subtext {
+    color: var(--text-color-2);
+    margin: 0;
+    padding: 32px 0;
+}
+
+.button {
+    background-color: var(--bg-color-3);
+    border-radius: 10px;
+    color: white;
+    padding: 8px 16px;
+}
+
+.right {
+    background-color: grey;
+    width: 50%;
+}
+
+.hero-img {
+    color: white;
+    text-align: center;
 }
