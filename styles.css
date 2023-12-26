@@ -85,11 +85,42 @@ header {
 }
 
 .right {
-    background-color: grey;
     width: 50%;
 }
 
 .hero-img {
     color: white;
     text-align: center;
+    width: 100%;
+}
+
+.information {
+    padding: 64px 200px;
+}
+
+.information .title {
+    text-align: center;
+    color: var(--text-color-3);
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 64px;
+}
+
+.tiles {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.tile {
+    justify-content: center;
+    text-align: center;
+}
+
+.info-pic {
+    border: 2px solid blue;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
 }
