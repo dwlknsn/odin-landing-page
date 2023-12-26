@@ -183,5 +183,12 @@ header {
     color: white;
     font-size: 24px;
     padding: 8px 32px;
+}
 
+.footer {
+    background-color: var(--bg-color-1);
+    color: var(--text-color-2);
+    flex: 1;
+    padding: 24px;
+    text-align: center;
 }
